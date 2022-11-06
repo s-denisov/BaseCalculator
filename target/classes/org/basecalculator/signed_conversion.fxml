@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import java.lang.Integer?>
+
+<GridPane prefHeight="400.0" prefWidth="600.0" hgap="10" vgap="15" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.basecalculator.SignedConversion">
+    <padding>
+        <Insets bottom="25" left="25" right="25" top="25" />
+    </padding>
+    <TextField fx:id="input" GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.columnSpan="2" />
+    <Label fx:id="formattedBinary" GridPane.rowIndex="0" GridPane.columnIndex="2" />
+    <RadioButton fx:id="toBinary" text="Denary &#x2192; &#xA; Binary" GridPane.rowIndex="1" GridPane.columnIndex="0" selected="true" >
+        <toggleGroup>
+            <ToggleGroup fx:id="conversionType" />
+        </toggleGroup>
+    </RadioButton>
+    <RadioButton fx:id="toDenary" text="Binary &#x2192; &#xA; Denary" GridPane.rowIndex="1" GridPane.columnIndex="1">
+        <toggleGroup>
+            <fx:reference source="conversionType" />
+        </toggleGroup>
+    </RadioButton>
+    <ChoiceBox fx:id="signedType" GridPane.rowIndex="3" GridPane.columnIndex="1" GridPane.columnSpan="2" />
+    <Label text="Bytes:" GridPane.rowIndex="2" GridPane.columnIndex="0" GridPane.halignment="CENTER" />
+    <fx:define>
+        <Integer fx:id="min" fx:value="1" />
+        <Integer fx:id="max" fx:value="4" />
+    </fx:define>
+    <Spinner fx:id="binaryBytes" min="$min" max="$max" prefWidth="60" GridPane.rowIndex="2" GridPane.columnIndex="1" />
+    <Button text="Submit" GridPane.rowIndex="3" GridPane.columnIndex="0" onAction="#convertSigned" />
+    <Label fx:id="result" GridPane.rowIndex="4" GridPane.columnIndex="0" GridPane.columnSpan="5" />
+    <ScrollPane  GridPane.rowIndex="5" GridPane.columnIndex="0" GridPane.columnSpan="10">
+        <Label fx:id="workingOutput" />
+    </ScrollPane>
+</GridPane>

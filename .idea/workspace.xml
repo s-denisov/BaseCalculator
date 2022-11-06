@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6318d879-23ff-4934-a548-65137d159edb" name="Default Changelist" comment="Fix test">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/basecalculator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/basecalculator/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/basecalculator/BaseAddition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/basecalculator/BaseAddition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/basecalculator/BaseConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/basecalculator/BaseConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/basecalculator/ExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/basecalculator/ExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/basecalculator/SignedConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/basecalculator/SignedConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/basecalculator/logic/BCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/basecalculator/logic/BCD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/basecalculator/logic/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/basecalculator/logic/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/basecalculator/logic/Hexadecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/basecalculator/logic/Hexadecimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/basecalculator/logic/NumberBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/basecalculator/logic/NumberBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/basecalculator/logic/NumberBaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/basecalculator/logic/NumberBaseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/basecalculator/logic/NumberBaseImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/basecalculator/logic/NumberBaseImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/basecalculator/logic/Octal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/basecalculator/logic/Octal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/basecalculator/logic/WorkingLoggable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/basecalculator/logic/WorkingLoggable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/basecalculator/logic/WorkingLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/basecalculator/logic/WorkingLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/basecalculator/logic/binarynumber/BinaryOverflowException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/basecalculator/logic/binarynumber/BinaryOverflowException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/basecalculator/logic/binarynumber/SignedType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/basecalculator/logic/binarynumber/SignedType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/basecalculator/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/basecalculator/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/basecalculator/logic/binarynumber/UnsignedBinaryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/basecalculator/logic/binarynumber/UnsignedBinaryTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iTEBl9T24BEHykrluGlMIj3ftI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/org/basecalculator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="org.basecalculator.logic.NumberBaseFactory" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="org.basecalculator.logic" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.basecalculator.App" />
+      <module name="BaseCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.basecalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in BaseCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BaseCalculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignedBinaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BaseCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.basecalculator.logic.binarynumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.basecalculator.logic.binarynumber" />
+      <option name="MAIN_CLASS_NAME" value="org.basecalculator.logic.binarynumber.SignedBinaryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnsignedBinaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BaseCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.basecalculator.logic.binarynumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.basecalculator.logic.binarynumber" />
+      <option name="MAIN_CLASS_NAME" value="org.basecalculator.logic.binarynumber.UnsignedBinaryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnsignedBinaryTest.additionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BaseCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.basecalculator.logic.binarynumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.basecalculator.logic.binarynumber" />
+      <option name="MAIN_CLASS_NAME" value="org.basecalculator.logic.binarynumber.UnsignedBinaryTest" />
+      <option name="METHOD_NAME" value="additionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.All in BaseCalculator" />
+        <item itemvalue="JUnit.UnsignedBinaryTest" />
+        <item itemvalue="JUnit.UnsignedBinaryTest.additionTest" />
+        <item itemvalue="JUnit.SignedBinaryTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6318d879-23ff-4934-a548-65137d159edb" name="Default Changelist" comment="" />
+      <created>1601923048261</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601923048261</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Add logic files (and their tests)">
+      <created>1602005817809</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602005817809</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Finish except working. Add working out object as di via setters">
+      <created>1602267857333</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602267857333</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Remove setWorkingOut (from bases create via &quot;to&quot; methods)">
+      <created>1602268013690</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602268013690</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix test">
+      <created>1602268079160</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602268079160</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Refactor to remove most boilerplate&#10;&#10;(by using a default NumberBase implementation)">
+      <created>1602365255684</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602365255684</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Almost finish">
+      <created>1602445977966</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602445977966</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Finish project">
+      <created>1602534806233</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602534806233</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Some cleanup">
+      <created>1602535014528</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602535014528</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add logic files (and their tests)" />
+    <MESSAGE value="Finish except working. Add working out object as di via setters" />
+    <MESSAGE value="Remove setWorkingOut (from bases create via &quot;to&quot; methods)" />
+    <MESSAGE value="Fix test" />
+    <MESSAGE value="Refactor to remove most boilerplate&#10;&#10;(by using a default NumberBase implementation)" />
+    <MESSAGE value="Almost finish" />
+    <MESSAGE value="Finish project" />
+    <MESSAGE value="Some cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some cleanup" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602005592580">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1602005592580" />
+    <state x="100" y="127" width="1720" height="853" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1602455500066">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="100" y="127" width="1720" height="853" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1602455500066" />
+    <state x="768" y="240" width="374" height="633" key="#com.intellij.ide.util.MemberChooser" timestamp="1602537842000">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="768" y="240" width="374" height="633" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1602537842000" />
+    <state x="803" y="476" width="314" height="161" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602008030655">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="803" y="476" width="314" height="161" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1602008030655" />
+    <state x="716" y="419" width="487" height="283" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602260695161">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="716" y="419" width="487" height="283" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.27.1920.1053@0.27.1920.1053" timestamp="1602260695161" />
+    <state x="714" y="390" width="482" height="333" key="#com.intellij.refactoring.move.moveInner.MoveInnerDialog" timestamp="1602008036641">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="714" y="390" width="482" height="333" key="#com.intellij.refactoring.move.moveInner.MoveInnerDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1602008036641" />
+    <state x="665" y="290" width="580" height="534" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1602349286982">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="665" y="290" width="580" height="534" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1602349286982" />
+    <state x="604" y="224" width="702" height="666" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602008505327">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="604" y="224" width="702" height="666" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1602008505327" />
+    <state x="693" y="302" width="524" height="510" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602533678046">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="693" y="302" width="524" height="510" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1602533678046" />
+    <state x="1028" y="377" key="#xdebugger.evaluate" timestamp="1602525482744">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1028" y="377" key="#xdebugger.evaluate/0.27.1920.1053@0.27.1920.1053" timestamp="1602525482744" />
+    <state x="654" y="407" width="602" height="330" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602534921642">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="654" y="407" width="602" height="330" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1920.1053@0.27.1920.1053" timestamp="1602534921642" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1602541816756">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1602541816756" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1602541816756">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1602541816756" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1602541816756">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1602541816756" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1602541816756">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1602541816756" />
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1602541816752">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1602541816752" />
+    <state width="1874" height="340" key="GridCell.Tab.1.center" timestamp="1602541816752">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1602541816752" />
+    <state width="1874" height="340" key="GridCell.Tab.1.left" timestamp="1602541816752">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1602541816752" />
+    <state width="1874" height="340" key="GridCell.Tab.1.right" timestamp="1602541816752">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1602541816752" />
+    <state x="493" y="211" width="924" height="691" key="Maven.ArtifactSearchDialog" timestamp="1602005693639">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="493" y="211" width="924" height="691" key="Maven.ArtifactSearchDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1602005693639" />
+    <state x="443" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1602005612741">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="443" y="131" width="1024" height="852" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1602005612741" />
+    <state x="733" y="333" width="443" height="448" key="chooseDestDirectoryDialog" timestamp="1602094500146">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="733" y="333" width="443" height="448" key="chooseDestDirectoryDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1602094500146" />
+    <state x="348" y="262" width="1213" height="665" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602260535573">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="348" y="262" width="1213" height="665" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.27.1920.1053@0.27.1920.1053" timestamp="1602260535573" />
+    <state x="100" y="127" width="1720" height="853" key="dock-window-1" timestamp="1602008875156">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="100" y="127" width="1720" height="853" key="dock-window-1/0.27.1920.1053@0.27.1920.1053" timestamp="1602008875156" />
+    <state x="972" y="234" width="611" height="801" key="find.popup" timestamp="1602533599924">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="972" y="234" width="611" height="801" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1602533599924" />
+    <state x="804" y="145" width="471" height="519" key="refactoring.ChangeSignatureDialog" timestamp="1602349689487">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="804" y="145" width="471" height="519" key="refactoring.ChangeSignatureDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1602349689487" />
+    <state x="624" y="252" key="run.anything.popup" timestamp="1602530390259">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="624" y="252" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1602530390259" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1602529809414">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1602529809414" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/basecalculator/logic/binarynumber/SignedBinary.java</url>
+          <line>121</line>
+          <properties class="org.basecalculator.logic.binarynumber.SignedBinary" method="toDenary">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/basecalculator/logic/binarynumber/SignedBinary.java</url>
+          <line>82</line>
+          <properties class="org.basecalculator.logic.binarynumber.SignedBinary" method="twosComplement">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/basecalculator/logic/binarynumber/SignedBinary.java</url>
+          <line>130</line>
+          <properties class="org.basecalculator.logic.binarynumber.SignedBinary" method="setBytes">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

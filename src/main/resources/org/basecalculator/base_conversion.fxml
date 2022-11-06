@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane prefHeight="400.0" prefWidth="600.0" hgap="10" vgap="15" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.basecalculator.BaseConversion">
+    <padding>
+        <Insets bottom="25" left="25" right="25" top="25" />
+    </padding>
+    <TextField fx:id="inputValue" GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.columnSpan="3" />
+    <ChoiceBox fx:id="fromBase" value="Binary" GridPane.rowIndex="1" GridPane.columnIndex="0" />
+    <Label text="to" GridPane.rowIndex="1"  GridPane.columnIndex="1" />
+    <ChoiceBox fx:id="toBase" value="Binary" GridPane.rowIndex="1" GridPane.columnIndex="2" />
+    <Button text="Submit" GridPane.rowIndex="2" GridPane.columnIndex="0" onAction="#convertBases" />
+    <Label fx:id="result" GridPane.rowIndex="3" GridPane.columnIndex="0" GridPane.columnSpan="5" />
+    <Button text="&#x21C4;" GridPane.rowIndex="2" GridPane.columnIndex="2" GridPane.halignment="RIGHT" onAction="#swapBases" />
+    <ScrollPane  GridPane.rowIndex="4" GridPane.columnIndex="0" GridPane.columnSpan="10">
+        <Label fx:id="workingOutput" />
+    </ScrollPane>
+</GridPane>

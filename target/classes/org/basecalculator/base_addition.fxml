@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<GridPane prefHeight="400.0" prefWidth="600.0" hgap="10" vgap="15" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.basecalculator.BaseAddition">
+    <padding>
+        <Insets bottom="25" left="25" right="25" top="25" />
+    </padding>
+    <Label text="Number 1:" GridPane.rowIndex="0" GridPane.columnIndex="0" />
+    <TextField fx:id="number1" GridPane.rowIndex="0" GridPane.columnIndex="1" />
+    <Label text="Number 2:" GridPane.rowIndex="1" GridPane.columnIndex="0" />
+    <TextField fx:id="number2" GridPane.rowIndex="1" GridPane.columnIndex="1" />
+    <RadioButton fx:id="addChoice" text="Add" GridPane.rowIndex="2" GridPane.columnIndex="0" selected="true" >
+        <toggleGroup>
+            <ToggleGroup fx:id="operation" />
+        </toggleGroup>
+    </RadioButton>
+    <RadioButton fx:id="subtractChoice" text="Subtract" GridPane.rowIndex="2" GridPane.columnIndex="1">
+        <toggleGroup>
+            <fx:reference source="operation" />
+        </toggleGroup>
+    </RadioButton>
+    <Button text="Submit" onAction="#addBases" GridPane.rowIndex="3" GridPane.columnIndex="0" />
+    <ChoiceBox fx:id="base" value="Denary" GridPane.rowIndex="3" GridPane.columnIndex="1" />
+    <Label fx:id="result" GridPane.rowIndex="4" GridPane.columnIndex="0" GridPane.columnSpan="3" />
+    <ScrollPane  GridPane.rowIndex="5" GridPane.columnIndex="0" GridPane.columnSpan="10">
+        <Label fx:id="workingOutput" />
+    </ScrollPane>
+</GridPane>
