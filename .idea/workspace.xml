@@ -14,18 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6318d879-23ff-4934-a548-65137d159edb" name="Default Changelist" comment="Fix test">
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/basecalculator/SignedConversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/basecalculator/SignedConversion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/basecalculator/logic/BCD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/basecalculator/logic/BCD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/basecalculator/logic/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/basecalculator/logic/Base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/basecalculator/logic/Hexadecimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/basecalculator/logic/Hexadecimal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/basecalculator/logic/NumberBaseException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/basecalculator/logic/NumberBaseException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/basecalculator/logic/NumberBaseImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/basecalculator/logic/NumberBaseImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/basecalculator/logic/Octal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/basecalculator/logic/Octal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/basecalculator/logic/WorkingLogger$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/basecalculator/logic/WorkingLogger$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/basecalculator/logic/WorkingLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/basecalculator/logic/WorkingLogger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/basecalculator/logic/binarynumber/BinaryOverflowException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/basecalculator/logic/binarynumber/BinaryOverflowException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/basecalculator/logic/binarynumber/SignedType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/basecalculator/logic/binarynumber/SignedType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601923048261</updated>
-      <workItem from="1669330019025" duration="302000" />
+      <workItem from="1669330019025" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="Add logic files (and their tests)">
       <created>1602005817809</created>
